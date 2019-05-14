@@ -1,6 +1,6 @@
 # hello-world
 Scratch Space
-## Smaller header
+### Smaller header
 This is a test repository
-## What can I add?
+### What can I add?
 Temporary work stuff
