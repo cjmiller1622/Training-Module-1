@@ -112,9 +112,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="354.39254"
-     inkscape:cy="778.99787"
+     inkscape:zoom="1.4"
+     inkscape:cx="229.65261"
+     inkscape:cy="851.42986"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -130,10 +130,10 @@
      inkscape:snap-object-midpoints="true"
      inkscape:snap-center="true"
      inkscape:snap-text-baseline="true"
-     inkscape:window-width="2560"
-     inkscape:window-height="1411"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="971"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata4560">
@@ -413,5 +413,41 @@
        cx="151.007"
        cy="70.993004"
        r="5" />
+    <text
+       transform="scale(0.84137167,1.1885354)"
+       id="text5684"
+       y="30.024168"
+       x="50.196625"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.78208876px;line-height:1.25;font-family:'Estrangelo TurAbdin';-inkscape-font-specification:'Estrangelo TurAbdin';letter-spacing:0px;word-spacing:0px;fill:#3ccbaf;fill-opacity:1;stroke:#3ccbaf;stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+       xml:space="preserve"><tspan
+         style="fill:#3ccbaf;fill-opacity:1;stroke:#3ccbaf;stroke-width:0.35;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+         y="30.024168"
+         x="50.196625"
+         id="tspan5682"
+         sodipodi:role="line">Feature_1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.78208876px;line-height:1.25;font-family:'Estrangelo TurAbdin';-inkscape-font-specification:'Estrangelo TurAbdin';letter-spacing:0px;word-spacing:0px;fill:#f9cf8d;fill-opacity:1;stroke:#f9cf8d;stroke-width:0.34999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+       x="52.26141"
+       y="89.727951"
+       id="text1731"
+       transform="scale(0.84137166,1.1885354)"><tspan
+         sodipodi:role="line"
+         id="tspan1729"
+         x="52.26141"
+         y="89.727951"
+         style="fill:#f9cf8d;fill-opacity:1;stroke:#f9cf8d;stroke-width:0.34999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;">Feature_2</tspan></text>
+    <text
+       transform="matrix(-0.00600535,-0.84135024,1.1885051,-0.00848326,0,0)"
+       id="text1735"
+       y="12.842525"
+       x="-95.992401"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.78208876px;line-height:1.25;font-family:'Estrangelo TurAbdin';-inkscape-font-specification:'Estrangelo TurAbdin';letter-spacing:0px;word-spacing:0px;fill:#f9cf8d;fill-opacity:1;stroke:#908fbf;stroke-width:0.34999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="fill:#f9cf8d;fill-opacity:1;stroke:#908fbf;stroke-width:0.34999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="12.842525"
+         x="-95.992401"
+         id="tspan1733"
+         sodipodi:role="line">Devel</tspan></text>
   </g>
 </svg>
