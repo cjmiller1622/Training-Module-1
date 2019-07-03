@@ -1,0 +1,134 @@
+// Base theme (black)          -----------------
+@import "../../css/theme/source/black";
+// ---------------------------------------------
+
+
+/* TODO: Download these? */
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+
+.reveal .slides section
+{ 
+  h1,h2,h3,h4,h5,h6
+  {
+    font-family: "Pathway Gothic One", "League Gothic", sans-serif;
+    font-weight: 800;
+  }
+
+  /* B::N color palette */
+  .b { color: #3bcbaf; }
+  .p { color: #918fbf; }
+  .y { color: #f9cf8d; }
+  .r { color: #ee746c; }
+  .dark { color: #3d4860; }
+  .bg { color: #1f1f1f; }
+
+  /* Vertical spacing */
+  .br1 { margin-top: 2em; }
+  .br2 { margin-top: 1em; }
+
+  /* Font sizing */
+  h1.small 
+  { 
+    font-size: 4rem; 
+  }
+  .big 
+  {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 1px #999; 
+  }
+  .big2
+  {
+    font-size: 2.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 1px #999; 
+  }
+  .big3
+  {
+    font-size: 4em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 1px #999;
+    text-decoration: underline;
+  }
+
+  /* alignment */
+  &.l { text-align: left; }
+
+  p.quote
+  {
+    font-style: italic;
+    font-size: 0.85em;
+  }
+
+  /* image styles */
+  img
+  {
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    
+    &.logo, &.title
+    {
+      height: 100px;
+    }
+    &.logo
+    {
+      float: right;
+      margin-top: 115px;
+    }
+    &.bio 
+    {
+      border: none;
+      margin: 10px 50px;
+      float: right;
+      height: 200px; 
+    }
+  }
+
+  ul.bio 
+  {
+    margin-top: -80px;
+  }
+  .quote-author
+  {
+    font-style: italic;
+    font-size: .8em;
+    color: #666;
+  }
+
+  .huge
+  {
+    font-size: 3em;
+  }
+
+  .bg-fade
+  {
+    color: #2f2f2f;
+    position: absolute;
+    z-index: -1;
+    font-size: 9em;
+    right: 0;
+  }
+
+  .fa-ul
+  {
+    margin-left: 2.5em;
+
+    li
+    {
+      list-style-type: none ;
+    }
+  }
+
+  blockquote.small
+  {
+    font-size: 0.8em
+  }
+}
+
+
+

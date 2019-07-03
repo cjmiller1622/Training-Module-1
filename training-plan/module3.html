@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>BioNeos Training Plan</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/bioneos.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <h1>Module 3:</h1>
+          <h2>Troubleshooting / Debugging</h2>
+        </section>
+        <section>
+          <h1>Goals</h1>
+          <ul>
+            <li>To be able to identify and use efficient debugging strategies</li>
+          </ul>
+        </section>
+        <section>
+          <h1>Debug Strategies</h1>
+          <ul>
+            <li>Tools vs. Techniques</li>
+            <li>There are lots of options! Let's explore a few.</li>
+          </ul>
+        </section>
+        <section>
+          <section>
+            <h1>Techniques</h1>
+          </section>
+          <section>
+            <h3>Techniques</h3>
+            <ul>
+              <li>IDE Breakpoints</li>
+              <ul>
+                <li>Stop where you want</li>
+                <li>Step by step execution</li>
+                <li>Variable inspection></li>
+              </ul>
+            </ul>
+          </section>
+          <section>
+            <h3>Techniques</h3>
+            <ul>
+              <li>Log Statements</li>
+              <ul>
+                <li>Timing</li>
+                <li>Variable inspection</li>
+                <li>Inspect code block execution</li>
+              </ul>
+            </ul>
+          </section>
+          <section>
+            <h3>Techniques</h3>
+            <ul>
+              <li>Commenting</li>
+              <ul>
+                <li>Isolate execution</li>
+              </ul>
+            </ul>
+          </section>
+          <section>
+            <h3>Techniques</h3>
+            <ul>
+              <li>Intentional Bad Input</li>
+              <ul>
+                <li>Try to break it...</li>
+              </ul>
+            </ul>
+          </section>
+          <section>
+            <h3>Techniques</h3>
+            <ul>
+              <li>TEST directory</li>
+              <ul>
+                <li>Make individual src files for different functions to test</li>
+              </ul>
+            </ul>
+          </section>
+          <section>
+            <h3>Techniques</h3>
+            <ul>
+              <li>Containerized Projects</li>
+              <ul>
+                <li>Change the environment</li>
+              </ul>
+            </ul>
+          </section>
+          <section>
+            <h3>Techniques</h3>
+            <ul>
+              <li>If all else fails...</li>
+            </ul>
+            <h2>GOOGLE IT</h2>
+            <p>Or, ask a supervisor/team member for guidance</p>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>Tools for Debugging</h1>
+          </section>
+          <section>
+            <h3>Tools</h3>
+            <ul>
+              <li>Profiler</li>
+              <ul>
+                <li>Timing</li>
+                <li>Memory Leaks</li>
+                <li>Function #'s execution</li>
+              </ul>
+            </ul>
+          </section>
+          <section>
+            <h3>Tools</h3>
+            <ul>
+              <li>Inspector</li>
+              <ul>
+                <li>Both general</li>
+                <li>And specific</li>
+              </ul>
+            </ul>
+          </section>
+          <section>
+            <h3>Tools</h3>
+            <ul>
+              <li>Unit Testers</li>
+              <ul>
+                <li>Mocks/Stubs</li>
+              </ul>
+            </ul>
+          </section>
+          <section>
+            <h3>Tools</h3>
+            <ul>
+              <li>Task Runner</li>
+              <ul>
+                <li>Runtime/constant deployment</li>
+                <li>This is on a code push</li>
+                <li>Gulp/Grunt are both examples of this tool</li>
+              </ul>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <h3>Training continued...</h3>
+          <p>Work through example problems <a href="https://github.com/bioneos/training-module-three">here</a></p>
+          <p>Make sure that all edge cases are working as expected too.</p>
+          <p>Individually choose one problem to work through, and then go through a problem as a team utilizing different strategies.</p>
+        </section>
+        <section>
+          <h3>End of Module Activity Pointers</h3>
+          <p>Discuss the examples and workflow of solving them</p>
+          <p>Discuss which tools to use to solve the problems</p>
+          <aside class="notes">
+            <p>Have the group come up with other ideas for examples to get them thinking
+          about other problems they may encounter. They can then be used in the future.</p>
+          </aside>
+        </section>
+
+        <section>
+          <a href="index.html">Back to Overview</a>
+        </section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>

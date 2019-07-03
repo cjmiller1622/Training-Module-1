@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>BioNeos Training Plan</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/bioneos.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <h1>Module 2:</h1>
+          <h2>Clarity vs Cleverness</h2>
+        </section>
+        <section>
+          <h1>Goals</h1>
+          <ul>
+            <li class="fragment fade-up">
+              To learn how to strike a balance between writing quality code 
+              and completing a task in a reasonable amount of time
+            </li>
+            <li class="fragment fade-up">To understand when is it the right time to optimize your code</li>
+            <li class="fragment fade-up">To realize why being clear is more important than being clever</li>
+          </ul>
+        </section>
+        <section>
+          <section>
+            <h1>Formatting Best Practices</h1>
+            <ul>
+              <li>What are some examples of good coding practices?</li>
+              <li>Can you think of any specific syntax styling that is important in every project?</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Formatting Best Practices</h1>
+            <h3>Things to keep in mind</h3>
+            <ul>
+              <li>Line indentation</li>
+              <li>OS differences</li>
+              <li>Line endings especially w/ different languages</li>
+              <li>Casing/Name conventions</li>
+              <li>Brackets</li>
+              <li>Variable naming</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Formatting Best Practices</h1>
+            <h3>Where to start?</h3>
+            <ul>
+              <li>Look up common conventions for your language(s)</li>
+              <li>Ask your team</li>
+              <li>Be consistent</li>
+              <li>Ask seniors on the project</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>Consistency is Key!</h1>
+            <p>Whether it's your first time or 100th time using a particular language,
+              be sure your coding style conventions are staying consistent with your
+              group's adopted "best practices" or commonly accepted coding conventions. 
+            </p>
+          </section>
+          <section>
+            <h1>If-Else Example</h1>
+            <img src="https://github.com/cjmiller1622/Training-Module-1/blob/master/if_else_block.png?raw=true"
+            align="middle" style="width:175px;height:375px;" class="fragment fade-up">
+            <ul>
+              <li class="fragment fade-up">Many different ways to write the same thing. Which is why we need consistency. </li>
+            </ul>
+          </section>
+        </section>
+        <section>
+            <section>
+            <h1>A few examples</h1>
+              <div align="left">Case #1</div>
+              <img src = "https://github.com/bioneos/training-plan/blob/master/images/ClarityVSclever_1.png?raw=true"
+                     align="middle" style="width:500px;height:220px;" class="fragment fade-up"/>
+              <ul>
+                <li class="fragment fade-up">A clever cast from a char to an int</li>
+              </ul>
+          </section>
+          <section>
+            <h1>A few examples cont.</h1>
+              <div align="left">Case #2</div>
+              <img src = "https://github.com/bioneos/training-plan/blob/master/images/ClarityVSclever_3.png?raw=true"
+                      align="middle" style="width:500px;height:220px;" class="fragment fade-up"/>
+              <ul>
+                <li class="fragment fade-up">Poor variable naming</li>
+                <li class="fragment fade-up">Relying on the implicit call of the method</li>
+                <li class="fragment fade-up">Doesn't follow the design paradigm of the rest of the system</li>
+              </ul>
+          </section>
+          <section>
+            <h1>A few examples cont.</h1>
+              <div align="left">Case #3</div>
+              <img src = "https://github.com/bioneos/training-plan/blob/master/images/ClarityVSclever_2.png?raw=true"
+                    align="middle" class="fragment fade-up"/>
+              <ul>
+                <li class="fragment fade-up">Solves frustrating problem with confusing syntax trick</li>
+                <li class="fragment fade-up">Relies on in-depth knowledge of the Java language</li>
+                <li class="fragment fade-up">Has performance implications</li>
+              </ul>
+          </section>
+        </section>
+        <section>
+          <h1>Discussion</h1>
+            <div align="left">Clarity saves time!</div>
+            <img src = "https://github.com/bioneos/training-plan/blob/master/images/ClarityVSclever_Refactored.png?raw=true"
+                    align="middle" class="fragment fade-up"/>
+        </section>
+        <section>
+          <h1>A quick java example</h1>
+          <p>This example will show a few techniques that can be implemented
+            to optimize code and keep your code consistent (remember, the best 
+            way to optimize is to not optimize...but this example can show you
+            a few ways optimization is possible.)
+          </p>
+        </section> 
+        <section>
+          <h1>Readings</h1>
+          <ul>
+            <li class="fragment fade-up"><a href="https://medium.com/@jraleman/ternary-operators-vs-if-else-statements-6c26f7d034f7" target="_blank">
+                Ternary expressions vs written out if-else</a></li>
+            <li class="fragment fade-up"><a href="https://www.simplethread.com/dont-be-clever/" target="_blank">Don't be clever blog</a></li>
+            <li class="fragment fade-up"><a href="https://twitter.com/evolvable/status/1113031660637847552/"
+                target="_blank">Requirements/Assumptions Thread</a></li>
+          </ul>
+        </section>
+        <section>
+        <section>
+          <h1>End of Module Activity</h1>
+          <p>Review the different implementations and discuss where things could be
+           more clear or organized better in our Module 1 Code.</p>
+          <p>Topics to keep on hand:</p>
+          <ul>
+            <li>Premature optimization</li>
+            <li>Ease of use</li>
+            <li>Readability</li>
+          </ul>
+        </section>
+          <section>
+            <h1>End of Module Activity</h1>
+          <p>Spend the rest of the afternoon revising your Module 1 Code,
+            look for inconsistencies, unclear blocks of code, and perhaps 
+            there are places that could be optimized.
+          </p>
+          <p>
+            We will discuss your edits and revisions once you are done as a group. 
+          </p>
+        </section>
+      </section>
+
+        <section>
+          <a href="index.html">Back to Overview</a>
+        </section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>

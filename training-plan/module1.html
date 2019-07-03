@@ -1,0 +1,562 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>BioNeos Training Plan</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/bioneos.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+        <section>
+          <h1>Module 1:</h1>
+          <h2>Version Control Workflow</h2>
+        </section>
+        <section>
+          <h1>Introduction</h1>
+          <h3 id=introHeader>Steve Davis, President</h3>
+            <div>
+              <img class="prez" src="https://bioneos.com/sites/default/files/images/steve.jpg">
+              <img id=logo src="https://bioneos.com/sites/default/themes/bioneos/logo.png">
+            </div>
+          </section>
+        </section>
+        <section>
+          <h1>Introductions</h1>
+          <ul>
+            <li class="b">Name</li>
+            <li class="y">Degree, Major, Area of Interest</li>
+            <li class="r">Hometown</li>
+            <li class="p">Favorite Restaurant</li>
+          </ul>
+        </section>
+        <section>
+            <h1>Goals of Module 1:</h1>
+            <ul>
+              <li class="b fragment fade-up">To be able to understand and follow our version control system branching policy</li>
+              <li class="fragment fade-up">Differentiate between three main types of workflows</li>
+              <li class="fragment fade-up">To be able to resolve general merge conflicts and understand what causes them</li>
+            </ul>
+            <aside class="notes">
+              <ul>
+                <li>Bio::Neos follows a strict standard</li>
+                <li>Keeping a consistent standard allows for more efficient work
+                and allows for tracking history of code changes a lot more convenient</li>
+                <li>Here we will get into a few different versions of a git workflow</li>
+              </ul>
+            </aside>
+          </section>
+        <section>
+          <section>
+            <h1>Let's Talk Git</h1>
+            <h2>What is it?</h2>
+            <aside class="notes">
+              <ul>
+                <li>Ask around the room for previous git experiences</li>
+                <li>Good? Bad? Ugly?</li>
+                <li>Comfortable? Scary?</li>
+              </ul>
+            </aside>
+          </section>
+          <section>
+            <h1>What's Git?</h1>
+            <ul>
+              <li>Keeps track of files in a project</li>
+              <li>Records any changes to project files</li>
+              <li>Restores previous versions of files</li>
+              <li>Compares and analyzes code</li>
+              <li>Merges code from different computers and different team members</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Repositories?</h1>
+            <ul>
+              <li>Acts as a directory (folder) in your project's root directory</li>
+              <li>Local repos are on your computer</li>
+              <li>Remote repos serve as central hub for all team members</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Git Initialization</h1>
+            <ul>
+              <li>git init</li>
+              <ul>
+                <li>Git will initialize hidden .git directory for your project</li>
+              </ul>
+              <li>git status</li>
+              <ul>
+                <li>Shows any files in staging area, current branch, and tracked/untracked files</li>
+              </ul>
+            </ul>
+          </section>
+          <section>
+            <h1>Tracking Files</h1>
+            <ul>
+              <li>git status</li>
+              <li>Information on files created, both tracked and untracked files</li>
+              <li>Files created locally are recognized by Git, but aren't in staging area yet</li>
+              <li>Must add files to staging area in order for Git to accept those file additions</li>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>Github Bootcamp</h1>
+            <h2>Bio::Neos Edition</h2>
+          </section>
+          <section>
+            <h1>git add</h1>
+            <blockquote class="small">
+              <p>$ git add "file_name"</p>
+            </blockquote>
+            <blockquote class="small">
+              <p>$ git rm --cached "file_name"</p>
+            </blockquote>
+            <aside class="notes">
+              <ul>
+                <li><img src="https://i.stack.imgur.com/qRAte.jpg" height="400"></li>
+                <li>This command lets Git track files for a commit</li>
+                <li>Pass a filename with the command to let Git know what file to track</li>
+                <li>Can add multiple files at a time</li>
+                <ul>
+                  <li>git add . --> will add all files under current directory</li>
+                </ul>
+                <li>git rm --cached my-file.ts --> removes files from staging area</li>
+              </ul>
+            </aside>
+          </section>
+          <section>
+            <h1>git commit</h1>
+            <blockquote class="small">
+              <p>$ git commit</p>
+            </blockquote>
+            <aside class="notes">
+              <ul>
+                <li>Adding the -a character to git commit adds files to staging area too</li>
+              </ul>
+            </aside>
+            <blockquote class="small">
+              <p>$ git commit -a</p>
+            </blockquote>
+            <aside class="notes">
+              <p><img src="https://i.stack.imgur.com/qRAte.jpg" height="400"></p>
+            </aside>
+          </section>
+          <section>
+            <h1>git reset</h1>
+            <blockquote class="small">
+              <p>$ git reset --soft HEAD^</p>
+            </blockquote>
+            <blockquote class="small">
+              <p>$ git reset --hard HEAD^</p>
+            </blockquote>
+            <ul>
+              <li>Opposite of "add" command</li>
+              <li>--soft option cancels the commmit and moves before the HEAD</li>
+              <li>Allows for more files to be modified and added to staging area</li>
+            </ul>
+            <aside class="notes">
+              <p><img src="https://i.stack.imgur.com/qRAte.jpg" height="400"></p>
+            </aside>
+          </section>
+          <section>
+            <h1>Amending Commits</h1>
+            <blockquote class="small">
+              <p>$ git add file-i-forgot-to-add.html</p>
+              <p>$ git commit --amend -m "Add the remaining file"</p>
+            </blockquote>
+            <aside class="notes">
+              <ul>
+                <li>--amend lets you amend the last commit by adding a new file</li>
+                <li>You can also overwrite the message of your last commit</li>
+              </ul>
+            </aside>
+          </section>
+          <section>
+            <h1>git branch</h1>
+            <blockquote class="small">
+              <p>$ git branch -lavv</p>
+            </blockquote>
+            <blockquote class="small">
+              <p>$ git branch new_branch</p>
+              <p>$ git checkout new_branch</p>
+            </blockquote>
+            <blockquote class="small">
+              <p>$ git checkout -b new_branch_2</p>
+            </blockquote>
+            <aside class="notes">
+              <ul>
+                <li>-lavv Lists the current working branch</li>
+                <li>Creates new branch (new_branch)</li>
+                <li>Creates new branch and switches to it (new_branch_2)</li>
+                <li>git checkout command is used to switch branches</li>
+              </ul>
+            </aside>
+          </section>
+          <section>
+            <h1>git push/pull</h1>
+            <blockquote class="small">
+              <p>$ git pull</p>
+              <p># Insert changes to files...</p>
+              <p>$ git push origin devel</p>
+            </blockquote>
+          </section>
+          <section>
+            <h1>git merge</h1>
+            <blockquote class="small">
+              <p>$ git checkout devel</p>
+              <p>$ git pull</p>
+              <p>$ git merge --no-ff feature_branch_to_merge</p>
+              <p>$ git branch -d feature_branch_to_merge</p>
+              <p>$ git push origin devel</p>
+            </blockquote>
+            <aside class="notes">
+              <ul>
+                <li>First change into the branch that you want your changes to be added to</li>
+                <li>Merge changes from the feature branch into your devel/master branch</li>
+                <li>Will talk about specific workflows soon...</li>
+              </ul>
+            </aside>
+          </section>
+          <section>
+            <h1>Fast Forward Merge</h1>
+            <blockquote class="small">
+              <p>$ git merge --no-ff feature_branch_to_merge</p>
+            </blockquote>
+            <aside class="notes">
+              <ul>
+                <li>Without --no-ff, there won't be any merge commit in the commit history</li>
+              </ul>
+            </aside>
+          </section>
+          <section>
+            <h1>Merge conflicts</h1>
+            <ul>
+              <li>Be sure to add files after manual resolution of merge conflict</li>
+              <li>This commit should describe issues that were resolved</li>
+            </ul>
+          </section>
+        </section>  
+        <section>
+          <h1>Readings</h1>
+            <p><a href="https://nvie.com/posts/a-successful-git-branching-model/" target="_blank">Git Branching Model</a></p>
+            <p><a href="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" target="_blank">Gitflow Workflow Article</a></p>
+            <p><a href="https://www.codingblocks.net/podcast/comparing-git-workflows/" target="_blank">Optional (if you have time) Comparing Git Workflows</a></p>
+          <aside class="notes">
+            <ul>
+              <li>Give reading time (maybe 20 minutes?)</li>
+              <li>Tell them to analyze/think of questions if people have any</li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <h1>Comparing Workflows</h1>
+          <ul>
+            <li class="fragment fade-up">Centralized</li>
+            <li class="fragment fade-up">Feature Branch Workflow (Trunk Based)</li>
+            <li class="fragment fade-up">Gitflow (what we use)</li> 
+          </ul>
+          <aside class="notes">
+            <ul>
+              <li>Centralized</li>
+              <ul>
+                <li>Everything committed directly to master</li>
+                <li>Pros: Easy, good for small teams</li>
+                <li>Cons: Resolving conflicts can be a burden in larger teams, doesn't take advantage of git's distributive nature</li>
+              </ul>
+              <li>Feature branch</li>
+              <ul>
+                <li>Feature branches that are merged directly into master</li>
+                <li>Pros: Promotes team collaboration and code reviews, keeps master stable</li>
+                <li>Cons: Long lived branches <i class="fas fa-arrow-right"></i> higher risk of merge conflicts</li>
+              </ul>
+              <li>Gitflow</li>
+              <ul>
+                <li>Builds upon feature branch, has devel branch, release branch, etc</li>
+                <li>Pros: Ideal for projects on a release cycle, keeps master stable, releases made from stable master branch</li>
+                <li>Cons: High risk of merge conflicts</li>
+              </ul>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <section>
+            <h1>Centralized Overview</h1>
+            <ul>
+              <li>Only master branch is required</li>
+              <li>Similar to SVN, but each developer still has local copy of entire project</li>
+              <li>Access to Git's robust branching and merging model</li>
+              <ul>
+                <li>Git branches are designed to for code integration and sharing changes</li>
+              </ul>
+              <li>Works well for smaller teams</li>
+            </ul>
+          </section>
+          <section>
+            <h1>How It Works</h1>
+            <ul>
+              <li>First create central repo on a server</li>
+              <li>Each developer creates local copy of entire project</li>
+              <blockquote class="small">
+                $ git clone ssh://user@host/path/to/repo.git
+              </blockquote>
+              <li>Commits are local, so developers can commit as much as they want without consequences in the central repo</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Rebasing</h1>
+            <blockquote class="small">
+              $ git pull --rebase origin master
+            </blockquote>
+            <ul>
+              <li>Before a developer can publish their feature, they need to fetch updated central commits and rebase their changes on top of them</li>
+              <li>Git recgonizes local changes/upstream commit conflicts</li>
+              <li>Rebasing is paused, conflicts are manually resolved, and rebase can complete.
+            </ul> 
+            <blockquote class="small">
+              $ git rebase --continue
+            </blockquote>
+            <ul>
+              <li>Rebase procedure will continue until all local commits are checked and process is completed</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Diagram</h1>
+            <ul>
+              <li class="fragment fade-up">Rebasing changes back to master</li>
+            </ul>
+            <div>
+              <img src = "https://github.com/cjmiller1622/Training-Module-1/blob/master/centralized.png?raw=true"
+              style = "height:400px;" class="fragment fade-up"/>
+            </div>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>Feature Branch Workflow (Trunk Based) Overview</h1>
+            <ul>
+              <li>Feature development takes place on separate branch than master</li>
+              <li>Allows multiple developers to work on a particular feature without disturbing main codebase</li>
+              <li>Branching model focused rather than repo focused</li>
+            </ul>
+          </section>
+          <section>
+            <h1>How It Works</h1>
+            <ul>
+              <li>Assumes a central repo, with its master branch representing "official" project history</li>
+              <li>Feature branches should be pushed to central repo once they are complete</li>
+              <li>Start with master branch, checkout a new feature branch to work on</li>
+            </ul>
+          </section>
+          <section>
+            <h1>How It Works Commands</h1>
+            <blockquote class="small">
+              <p>$ git checkout master</p>
+              <p>$ git fetch origin</p>
+              <p>$ git reset --hard origin/master</p>
+              <p>$ git checkout -b new-feature</p>
+            </blockquote>
+          </section>
+          <section>
+            <h1>Merging/Publishing a Feature</h1>
+            <ul>
+              <li>Process will result with a merge commit</li>
+              <li>This represents symbolic joining of the feature with the rest of code base</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Merging/Publishing a Feature Commands</h1>
+            <blockquote class="small">
+              <p>$ git checkout master</p>
+              <p>$ git pull</p>
+              <p>$ git pull origin marys-feature</p>
+              <p>$ git push</p>
+            </blockquote>
+          </section>
+          <section>
+            <h1>Diagram</h1>
+            <ul>
+              <li class="fragment fade-up">Branching off of Devel</li>
+              <div>
+                <img src = "https://uploads.toptal.io/blog/image/129305/toptal-blog-image-1551794424851-b3d5928bc33edfc954ef460062e5cbcc.png" class="fragment fade-up"
+                height = "450">
+              </div>
+            </ul>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h1>Gitflow Overview</h1>
+            <ul>
+              <li>Ideally suited for projects with a scheduled release cycle</li>
+              <li>No new concepts from feature branch workflow, each branch holds a specific role now</li>
+              <li>Uses individual branches for prepping, maintaining, and recording releases</li>
+            </ul>
+          </section>
+          <section>
+            <h1>How It Works</h1>
+            <ul>
+              <li>Workflow uses two branches, master and develop</li>
+              <li>Each new feature should reside in its own branch</li>
+              <li>Feature branches should use develop as their parent, and they should be merged back into develop</li>
+            </ul>
+          </section>
+          <section>
+            <h1>Bio::Neos Gitflow Commands</h1>
+            <blockquote class="small">
+              <p>$ git checkout devel</p>
+              <p>$ git pull</p>
+              <p>$ git merge --no-ff feature_branch</p>
+              <p>$ git push origin devel</p>
+              <p>$ git branch -d feature_branch</p>
+            </blockquote>
+          </section>
+          <section>
+            <h1>Bio::Neos Gitflow Specs</h1>
+            <ul>
+              <li>Be sure to pull before attempting a merge.</li>
+              <li>If you ever get a rejected push after your merge, be sure to reset your devel branch to remove the incorporation
+                of your branch by resetting to the branching commit, then starting over.
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h3>Gitflow Basic Diagram</h3>
+            <ul>
+              <li class="fragment fade-up">Master vs. Develop</li>
+              <div>
+                <img src = "https://github.com/bioneos/training-plan/blob/master/images/horiz_master_dev.png?raw=true"
+                  style = "height:200px;" class="fragment fade-up" />
+              </div>
+              <li class="fragment fade-up">Adding Features</li>
+            </ul>
+              <div>
+                <img src = "https://github.com/bioneos/training-plan/blob/master/images/horiz_master_dev_feature.png?raw=true"
+                  style="height:200px;" class="fragment fade-up"/>
+              </div>
+            <aside class = "notes">
+              <ul>
+                <li>Devel branch always directly branches off of master (only branch that should do this...for now)</li>
+                <li>Feature branch only branches off devel. Merges back into devel.</li>
+                <li>Devel merges back into master when it is release ready</li>
+              </ul>
+            </aside>
+          </section>
+          <section>
+            <h3>Gitflow -- (What we use)</h3>
+            <img src = "https://github.com/bioneos/training-plan/blob/master/images/Gitflow_workflow_overview.png?raw=true" style="height:550px;">
+            <aside class="notes">
+              <ul>
+                <li>Ask each particular colored branch functionality</li>
+                <li><li>i.e When to use what branch?</li></li>
+            </aside>
+          </section>
+        </section>
+        <section>
+          <h1>Discussion Questions</h1>
+            <ul>
+              <li class="fragment fade-up"><a href="https://www.atlassian.com/git/tutorials/using-branches/merge-strategy" target="blank">Merge Strategies</a></li>
+              <li class="fragment fade-up">What would you do if you have merge conflicts?</li>
+              <li class="fragment fade-up">What would be a bad way to resolve a merge conflict?</li>
+            </ul>
+          <aside class = "notes">
+            <ul>
+              <li>Only taking your changes without consideration of other person's code</li>
+              <li>Not testing that your changes didn't break other person's code (know when and how much to test)</li>
+              <li>Talk about situation where developer tried to solve merge conflict when he merged devel into his branch:</li>
+                <ul>
+                  <li>Deleted his repo, replacing file in newly checked out repo, ended up squashing a bunch of devel commits</li>
+                </ul>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <section>
+              <h1>Merge Conflict Scenarios</h1>
+              <div align="left" class="fragment fade-up">Case #1</div>
+              <img src = "https://github.com/cjmiller1622/Training-Module-1/blob/master/ex1.png?raw=true"
+                         align="middle" class="fragment fade-up"/>
+            </section>
+            <section>
+              <h1>Merge Conflict Scenarios</h1>
+              <div align="left" class="fragment fade-up">Case #2</div>
+              <img src = "https://github.com/cjmiller1622/Training-Module-1/blob/master/ex2.png?raw=true"
+                        align="middle" class="fragment fade-up"/>
+            </section>
+            <section>
+              <h1>One More</h1>
+              <div align="left" class="fragment fade-up">Case #3</div>
+              <img src = "https://github.com/cjmiller1622/Training-Module-1/blob/master/ex3.png?raw=true"
+                        align="middle" height=450 class="fragment fade-up"/>
+            </section>
+          </section>
+        <section>
+          <p>Common errors and ways to fix them</p>
+          <ul>
+            <li>Merge conflicts</li>
+            <li>Undo a commit</li>
+            <li>Undo a merge commit</li>
+            <li>git commit --amend</li>
+          </ul>
+          <p><a href="https://about.gitlab.com/2018/08/08/git-happens/" target="_blank">Git Happens article</a></p>
+          <aside class="notes">
+            <ul>
+              <li>Undo commit and keep changes: git reset HEAD~</li>
+              <li>Undo commit and get rid of changes: git reset --hard HEAD~</li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <h1>Practice using our workflow on a sample project</h1>
+          <p>Resolving a merge conflict</p>
+          <p>Undoing a merge commit after merging into devel</p>
+          <p><a href="https://github.com/bioneos/genetics-demo-javafx" target="_blank">View Module 1 Project</a></p>
+          <aside class="notes">
+            <ul>
+              <li>Resolve a merge conflict</li>
+              <li>Undo a merge commit after merging into devel</li>
+              <li>Tell trainees to read through project documentation, clone into repo from their machines (intellij or eclipse IDE) and build the project. 
+            </ul>
+          </aside>
+        </section>
+
+        <section>
+          <a href="index.html">Back to Overview</a>
+        </section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
