@@ -100,7 +100,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="287.22485"
+     inkscape:cx="81.15373"
      inkscape:cy="628.00655"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -116,10 +116,10 @@
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-object-midpoints="true"
      inkscape:snap-center="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="971"
-     inkscape:window-x="0"
-     inkscape:window-y="31"
+     inkscape:window-width="2560"
+     inkscape:window-height="1411"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata4901">
@@ -312,7 +312,7 @@
          sodipodi:role="line">Master</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.96301746px;line-height:1.25;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#f9cf8d;fill-opacity:1;stroke:#f9cf8d;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.96301746px;line-height:1.25;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#f9cf8d;fill-opacity:1;stroke:#f9cf8d;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="78.241142"
        y="117.51614"
        id="text5688"
@@ -321,7 +321,7 @@
          id="tspan5686"
          x="78.241142"
          y="117.51614"
-         style="fill:#f9cf8d;fill-opacity:1;stroke:#f9cf8d;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-font-specification:serif;font-family:serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">Master</tspan></text>
+         style="fill:#f9cf8d;fill-opacity:1;stroke:#f9cf8d;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-font-specification:serif;font-family:serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">Master</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker5705)"
        d="M 132.23474,155.30769 90.639092,155.15578 Z"
