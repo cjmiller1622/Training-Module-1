@@ -56,9 +56,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.3826008"
-     inkscape:cx="362.09235"
-     inkscape:cy="781.09651"
+     inkscape:zoom="1.1913004"
+     inkscape:cx="357.28608"
+     inkscape:cy="825.57406"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -73,11 +73,13 @@
      inkscape:snap-midpoints="true"
      inkscape:snap-object-midpoints="true"
      inkscape:snap-center="true"
-     inkscape:window-width="2560"
-     inkscape:window-height="1411"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-width="1920"
+     inkscape:window-height="971"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0" />
   <metadata
      id="metadata11759">
     <rdf:RDF>
@@ -86,7 +88,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -168,7 +170,7 @@
        id="circle5198"
        style="opacity:1;fill:#908fbf;fill-opacity:1;stroke:#000000;stroke-width:2.01399994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <circle
-       style="opacity:1;fill:#908fbf;fill-opacity:1;stroke:#000000;stroke-width:2.01399994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#ee746c;fill-opacity:1;stroke:#000000;stroke-width:2.01399994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="circle5202"
        cx="26.825741"
        cy="74.44783"
@@ -213,65 +215,110 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.96301746px;line-height:1.25;font-family:'Estrangelo TurAbdin';-inkscape-font-specification:'Estrangelo TurAbdin';letter-spacing:0px;word-spacing:0px;fill:#908fbf;fill-opacity:1;stroke:#908fbf;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="82.365707"
-       y="42.936527"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.55531025px;line-height:1.25;font-family:'Estrangelo TurAbdin';-inkscape-font-specification:'Estrangelo TurAbdin';letter-spacing:0px;word-spacing:0px;fill:#908fbf;fill-opacity:1;stroke:#908fbf;stroke-width:0.44999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="113.46616"
+       y="42.075935"
        id="text5670"
-       transform="scale(0.74258191,1.3466528)"><tspan
+       transform="scale(0.66594949,1.5016154)"><tspan
          sodipodi:role="line"
          id="tspan5668"
-         x="82.365707"
-         y="42.936527"
-         style="fill:#908fbf;fill-opacity:1;stroke:#908fbf;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Origin Master</tspan></text>
+         x="113.46616"
+         y="42.075935"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif;fill:#908fbf;fill-opacity:1;stroke:#908fbf;stroke-width:0.44999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Master Branch</tspan></text>
     <circle
        style="opacity:1;fill:#908fbf;fill-opacity:1;stroke:#000000;stroke-width:2.01399994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="circle12854"
        cx="102.09301"
        cy="74.447838"
        r="5" />
-    <circle
-       r="5"
-       cy="74.447998"
-       cx="131.007"
-       id="circle12856"
-       style="opacity:1;fill:#908fbf;fill-opacity:1;stroke:#000000;stroke-width:2.01399994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 106.82575,74.447838 19.18125,1.59e-4 z"
        id="path12858"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 106.82625,100.30745 131.007,79.447998 Z"
-       id="path12860"
-       inkscape:connector-curvature="0" />
-    <circle
-       style="opacity:1;fill:#908fbf;fill-opacity:1;stroke:#000000;stroke-width:2.01399994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="circle12862"
-       cx="158.10274"
-       cy="74.447998"
-       r="5" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 136.007,74.447997 h 17.09574 z"
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 126.007,74.447995 h 36.63425 z"
        id="path12864"
        inkscape:connector-curvature="0" />
     <text
-       transform="scale(0.74258191,1.3466528)"
+       transform="scale(0.69733922,1.4340223)"
        id="text12868"
-       y="89.445282"
-       x="80.122559"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.96301746px;line-height:1.25;font-family:'Estrangelo TurAbdin';-inkscape-font-specification:'Estrangelo TurAbdin';letter-spacing:0px;word-spacing:0px;fill:#f9cf8d;fill-opacity:1;stroke:#f9cf8d;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       y="84.021629"
+       x="108.47038"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.76001072px;line-height:1.25;font-family:'Estrangelo TurAbdin';-inkscape-font-specification:'Estrangelo TurAbdin';letter-spacing:0px;word-spacing:0px;fill:#f9cf8d;fill-opacity:1;stroke:#f9cf8d;stroke-width:0.45;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        xml:space="preserve"><tspan
-         style="fill:#f9cf8d;fill-opacity:1;stroke:#f9cf8d;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         y="89.445282"
-         x="80.122559"
+         style="fill:#f9cf8d;fill-opacity:1;stroke:#f9cf8d;stroke-width:0.45;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-font-specification:serif;font-family:serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         y="84.021629"
+         x="108.47038"
          id="tspan12866"
          sodipodi:role="line">Feature Branch</tspan><tspan
-         style="fill:#f9cf8d;fill-opacity:1;stroke:#f9cf8d;stroke-width:0.75;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         y="104.39906"
-         x="80.122559"
+         style="fill:#f9cf8d;fill-opacity:1;stroke:#f9cf8d;stroke-width:0.45;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         y="96.221642"
+         x="108.47038"
          sodipodi:role="line"
          id="tspan12870" /></text>
+    <circle
+       style="opacity:1;fill:#f9cf8d;fill-opacity:1;stroke:#000000;stroke-width:2.01399994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle5204-3"
+       cx="151.826"
+       cy="100.307"
+       r="5" />
+    <circle
+       style="opacity:1;fill:#f9cf8d;fill-opacity:1;stroke:#000000;stroke-width:2.01399994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle5204-6"
+       cx="126.826"
+       cy="100.307"
+       r="5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 106.82625,100.30745 h 15 z"
+       id="path5656-7"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 131.826,100.307 h 15 z"
+       id="path5656-5"
+       inkscape:connector-curvature="0" />
+    <circle
+       style="opacity:1;fill:#3ccbaf;fill-opacity:1;stroke:#000000;stroke-width:2.014;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="circle12862-3"
+       cx="185.744"
+       cy="74.478996"
+       r="5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 162.64126,74.478996 H 179.737 Z"
+       id="path12864-5"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 156.826,100.307 C 185.744,79.478996 185.744,79.478996 185.744,79.478996 Z"
+       id="path1366"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.54911327px;line-height:1.25;font-family:'Estrangelo TurAbdin';-inkscape-font-specification:'Estrangelo TurAbdin';letter-spacing:0px;word-spacing:0px;fill:#3ccbaf;fill-opacity:1;stroke:#3ccbaf;stroke-width:0.45;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="211.85561"
+       y="43.442638"
+       id="text5670-2"
+       transform="scale(0.67868375,1.4734403)"><tspan
+         sodipodi:role="line"
+         id="tspan5668-9"
+         x="211.85561"
+         y="43.442638"
+         style="fill:#3ccbaf;fill-opacity:1;stroke:#3ccbaf;stroke-width:0.45;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;-inkscape-font-specification:serif;font-family:serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal">New Merge Commit</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.59721851px;line-height:1.25;font-family:'Estrangelo TurAbdin';-inkscape-font-specification:'Estrangelo TurAbdin';letter-spacing:0px;word-spacing:0px;fill:#ee746c;fill-opacity:1;stroke:#ee746c;stroke-width:0.45;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="3.4266701"
+       y="46.828541"
+       id="text5670-1"
+       transform="scale(0.71832361,1.3921302)"><tspan
+         sodipodi:role="line"
+         id="tspan5668-2"
+         x="3.4266701"
+         y="46.828541"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif;fill:#ee746c;fill-opacity:1;stroke:#ee746c;stroke-width:0.45;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Common Tip</tspan></text>
   </g>
 </svg>
